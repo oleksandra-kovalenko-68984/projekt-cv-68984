@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oleksandra Kovalenko – Portfolio</title>
+  <link rel="stylesheet" href="red.css" />
+</head>
+<body>
+  <div class="portfolio-container">
+
+    <nav class="navbar">
+      <div class="nav-content">
+        <div class="nav-logo">OK</div>
+        <div class="nav-desktop">
+          <a href="#home" class="nav-link active">Home</a>
+          <a href="#about" class="nav-link">O mnie</a>
+          <a href="#education" class="nav-link">Wykształcenie</a>
+          <a href="#experience" class="nav-link">Doświadczenie</a>
+          <a href="#skills" class="nav-link">Umiejętności</a>
+          <a href="#projects" class="nav-link">Projekty</a>
+          <a href="#languages" class="nav-link">Języki</a>
+          <a href="#contact" class="nav-link">Kontakt</a>
+          <a class="nav-link" id="theme-toggle" style="cursor:pointer; border: 1px solid rgba(255,255,255,0.3); margin-left: 10px; background: rgba(255,255,255,0.1);">Kolor</a>
+        </div>
+        <button id="nav-toggle" class="nav-toggle">
+          <span class="nav-icon">☰</span>
+        </button>
+      </div>
+    </nav>
+
+    <section id="home" class="hero-section">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+
+      <div class="hero-content">
+        <h1 class="hero-title gradient-text">Oleksandra Kovalenko</h1>
+        <p class="hero-subtitle">Frontend Developer & IT Student</p>
+        <p class="hero-description">
+          Tworząca nowoczesne, responsywne interfejsy webowe z pasją do czystego kodu i przyjaznych użytkownikowi rozwiązań
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#contact" class="btn-primary">
+            <span class="btn-icon">✉</span>
+            Skontaktuj się
+          </a>
+          <a href="#about" class="btn-secondary">Zobacz więcej</a>
+        </div>
+
+        <div class="social-links-container">
+          <a href="https://github.com/oleksandra-kovalenko-68984" target="_blank" class="social-link btn-secondary">
+          💻 GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/oleksandra-kovalenko-10aa273ab" target="_blank" class="social-link btn-secondary">
+          🔗 LinkedIn
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title gradient-text section-header" style="cursor: pointer;">
+          O mnie <span class="chevron-icon"></span>
+        </h2>
+        
+        <div class="section-content">
+          <div class="about-grid">
+            <div class="card card-purple">
+              <div class="card-header">
+                <div class="card-icon">👤</div>
+                <h3>Profil</h3>
+              </div>
+              <p>
+                Studentka informatyki nastawiona na rozwój w obszarze frontendu oraz UI. 
+                Interesuję się tworzeniem przejrzystych, responsywnych interfejsów użytkownika 
+                oraz logiką aplikacji webowych.
+              </p>
+            </div>
+
+            <div class="card card-pink">
+              <div class="card-header">
+                <div class="card-icon">🎯</div>
+                <h3>Cele</h3>
+              </div>
+              <p>
+                Poszukuję praktyk IT, gdzie mogę rozwijać się jako frontend / web developer 
+                i pracować przy realnych projektach. Posiadam podstawy backendu i full stacku, 
+                co pozwala mi rozumieć pełny przepływ danych.
+              </p>
+            </div>
+          </div>
+
+          <div class="card card-full">
+            <div class="card-header">
+              <div class="card-icon">💼</div>
+              <h3>Informacje kontaktowe</h3>
+            </div>
+            <div class="contact-grid">
+              <div class="contact-item">
+                <p class="contact-label">Telefon</p>
+                <p class="contact-value">+48 883 283 599</p>
+              </div>
+              <div class="contact-item">
+                <p class="contact-label">E-mail</p>
+                <p class="contact-value">sahsakovalenko38@gmail.com</p>
+              </div>
+              <div class="contact-item">
+                <p class="contact-label">Lokalizacja</p>
+                <p class="contact-value">Warszawa, Polska</p>
+              </div>
+            </div>
+          </div>
+        </div> </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="container">
+        <h2 class="section-title gradient-text section-header" style="cursor: pointer;">
+          Wykształcenie <span class="chevron-icon"></span>
+        </h2>
+        
+        <div class="section-content">
+          <div class="education-list">
+            <div class="card card-purple">
+              <div class="education-content">
+                <div class="card-icon-large">🎓</div>
+                <div class="education-details">
+                  <h3>Akademia Finansów i Biznesu Vistula</h3>
+                  <p class="education-location">Warszawa</p>
+                  <p class="education-degree">Informatyka</p>
+                  <p class="education-spec">Specjalizacja: Inżyneria technologii internetowych</p>
+                  <p class="education-period">📅 10/2023 – obecnie</p>
+                  <p class="education-completion">Planowana data ukończenia: marzec 2027</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card card-pink">
+              <div class="education-content">
+                <div class="card-icon-large">🏆</div>
+                <div class="education-details">
+                  <h3>Liceum nr 1</h3>
+                  <p class="education-location">Netiszyn (Ukraina)</p>
+                  <p class="education-degree">Pełne wykształcenie średnie z wyróżnieniem</p>
+                  <p class="education-period">📅 09/2012 – 06/2023</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="container">
+        <h2 class="section-title gradient-text section-header" style="cursor: pointer;">
+          Doświadczenie zawodowe <span class="chevron-icon"></span>
+        </h2>
+        
+        <div class="section-content">
+          <div class="card card-purple">
+            <div class="experience-content">
+              <div class="card-icon-large">💼</div>
+              <div class="experience-details">
+                <h3>Doradca Klienta</h3>
+                <p class="experience-company">BERSHKA (Inditex)</p>
+                <p class="experience-location">Warszawa</p>
+                <p class="experience-period">📅 05/2025 – obecnie</p>
+                
+                <ul class="experience-list">
+                  <li>✓ Profesjonalna obsługa klienta i praca z użytkownikiem końcowym</li>
+                  <li>✓ Praca z systemami sprzedażowymi i bazami danych produktów</li>
+                  <li>✓ Współpraca zespołowa oraz szybkie reagowanie na problemy</li>
+                  <li>✓ Dbałość o estetykę, spójność wizualną i standardy marki</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div> </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title gradient-text section-header" style="cursor: pointer;">
+          Umiejętności <span class="chevron-icon"></span>
+        </h2>
+        
+        <div class="section-content">
+          <div class="skills-section">
+            <h3 class="subsection-title">💡 Umiejętności techniczne</h3>
+            <div class="skills-grid">
+              <div class="card card-purple">
+                <div class="card-header">
+                  <div class="card-icon">💻</div>
+                  <h4>Frontend</h4>
+                </div>
+                <div class="tags">
+                  <span class="tag">HTML5</span>
+                  <span class="tag">CSS3</span>
+                  <span class="tag">JavaScript</span>
+                  <span class="tag">React (w trakcie nauki)</span>
+                </div>
+              </div>
+
+              <div class="card card-pink">
+                <div class="card-header">
+                  <div class="card-icon">⚙️</div>
+                  <h4>Backend</h4>
+                </div>
+                <div class="tags">
+                  <span class="tag">PHP (podstawy)</span>
+                </div>
+              </div>
+
+              <div class="card card-purple">
+                <div class="card-header">
+                  <div class="card-icon">🗄️</div>
+                  <h4>Bazy danych</h4>
+                </div>
+                <div class="tags">
+                  <span class="tag">Projektowanie i obsługa baz danych</span>
+                  <span class="tag">Architektura aplikacji internetowych</span>
+                </div>
+              </div>
+
+              <div class="card card-pink">
+                <div class="card-header">
+                  <div class="card-icon">🔧</div>
+                  <h4>Narzędzia</h4>
+                </div>
+                <div class="tags">
+                  <span class="tag">Visual Studio Code</span>
+                  <span class="tag">IntelliJ IDEA</span>
+                  <span class="tag">Git (podstawy)</span>
+                  <span class="tag">XAMPP</span>
+                  <span class="tag">Microsoft Office</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-section">
+            <h3 class="subsection-title">👥 Umiejętności miękkie</h3>
+            <div class="card card-full card-pink">
+              <div class="soft-skills-grid">
+                <div class="soft-skill-item">• Analityczne myślenie i rozwiązywanie problemów</div>
+                <div class="soft-skill-item">• Dobra organizacja pracy i punktualność</div>
+                <div class="soft-skill-item">• Umiejętność pracy zespołowej</div>
+                <div class="soft-skill-item">• Szybka adaptacja do nowych technologii</div>
+                <div class="soft-skill-item">• Odpowiedzialność i zaangażowanie</div>
+              </div>
+            </div>
+          </div>
+        </div> </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title gradient-text section-header" style="cursor: pointer;">
+          Projekty <span class="chevron-icon"></span>
+        </h2>
+        
+        <div class="section-content">
+          <div class="projects-list">
+            <div class="card card-purple">
+              <div class="project-content">
+                <div class="card-icon-large">🗄️</div>
+                <div class="project-details">
+                  <h3>CRUD Web Application – katalog filmów</h3>
+                  <ul class="project-features">
+                    <li>✓ Aplikacja webowa umożliwiająca dodawanie, edycję, usuwanie i przeglądanie filmów</li>
+                    <li>✓ Wykorzystanie HTML, CSS, JavaScript, PHP oraz bazy danych</li>
+                    <li>✓ Implementacja operacji CRUD oraz logicznego połączenia frontendu z backendem</li>
+                    <li>✓ Implementacja systemu rejestracji i logowania użytkowników (autoryzacja, kontrola dostępu do funkcji)</li>
+                  </ul>
+                  <div class="tags">
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">PHP</span>
+                    <span class="tag">MySQL</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card card-pink">
+              <div class="project-content">
+                <div class="card-icon-large">🏠</div>
+                <div class="project-details">
+                  <h3>Portal agencji nieruchomości</h3>
+                  <ul class="project-features">
+                    <li>✓ Projekt strony internetowej prezentującej oferty nieruchomości</li>
+                    <li>✓ Integracja z bazą danych (dynamiczne wyświetlanie ofert)</li>
+                    <li>✓ Skupienie na strukturze danych, czytelności interfejsu i responsywności</li>
+                  </ul>
+                  <div class="tags">
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">PHP</span>
+                    <span class="tag">Database</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> </div>
+    </section>
+
+    <section id="languages" class="section">
+      <div class="container">
+        <h2 class="section-title gradient-text section-header" style="cursor: pointer;">
+          Języki & Zainteresowania <span class="chevron-icon"></span>
+        </h2>
+        
+        <div class="section-content">
+          <div class="languages-grid">
+            <div class="card card-purple">
+              <div class="card-header">
+                <div class="card-icon">🌍</div>
+                <h3>Języki</h3>
+              </div>
+              <div class="languages-list">
+                <div class="language-item">
+                  <div class="language-header">
+                    <span class="language-name">Ukraiński</span>
+                    <span class="language-level">ojczysty</span>
+                  </div>
+                  <div class="progress-bar">
+                    <div class="progress-fill" style="width: 100%;"></div>
+                  </div>
+                </div>
+
+                <div class="language-item">
+                  <div class="language-header">
+                    <span class="language-name">Rosyjski</span>
+                    <span class="language-level">biegły</span>
+                  </div>
+                  <div class="progress-bar">
+                    <div class="progress-fill" style="width: 100%;"></div>
+                  </div>
+                </div>
+
+                <div class="language-item">
+                  <div class="language-header">
+                    <span class="language-name">Angielski</span>
+                    <span class="language-level">B2+</span>
+                  </div>
+                  <div class="progress-bar">
+                    <div class="progress-fill" style="width: 80%;"></div>
+                  </div>
+                </div>
+
+                <div class="language-item">
+                  <div class="language-header">
+                    <span class="language-name">Polski</span>
+                    <span class="language-level">B2</span>
+                  </div>
+                  <div class="progress-bar">
+                    <div class="progress-fill" style="width: 75%;"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card card-pink">
+              <div class="card-header">
+                <div class="card-icon">🎯</div>
+                <h3>Zainteresowania</h3>
+              </div>
+              <div class="interests-list">
+                <div class="interest-item">• Technologie internetowe i rozwój IT</div>
+                <div class="interest-item">• Sztuczna inteligencja</div>
+                <div class="interest-item">• Nowe media i media społecznościowe</div>
+                <div class="interest-item">• Kinematografia i muzyka</div>
+              </div>
+            </div>
+          </div>
+        </div> </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title gradient-text section-header" style="cursor: pointer;">
+          Skontaktuj się ze mną <span class="chevron-icon"></span>
+        </h2>
+        
+        <div class="section-content">
+          <div class="contact-cards">
+            <a href="mailto:sahsakovalenko38@gmail.com" class="card card-purple contact-card">
+              <div class="card-icon-large">✉</div>
+              <h3>Email</h3>
+              <p>sahsakovalenko38@gmail.com</p>
+            </a>
+
+            <a href="tel:+48883283599" class="card card-pink contact-card">
+              <div class="card-icon-large">📞</div>
+              <h3>Telefon</h3>
+              <p>+48 883 283 599</p>
+            </a>
+
+            <div class="card card-purple contact-card">
+              <div class="card-icon-large">📍</div>
+              <h3>Lokalizacja</h3>
+              <p>Warszawa, Polska</p>
+            </div>
+          </div>
+
+          <div class="card card-full cta-card">
+            <h3 class="gradient-text">Poszukuję praktyk IT</h3>
+            <p>
+              Jestem otwarta na praktyki i staże w obszarze frontend developmentu. 
+              Chętnie będę pracować przy realnych projektach i rozwijać swoje umiejętności w profesjonalnym środowisku.
+            </p>
+            <a href="mailto:sahsakovalenko38@gmail.com" class="btn-primary">
+              <span class="btn-icon">📨</span>
+              Wyślij wiadomość
+            </a>
+          </div>
+
+          <footer class="footer">
+            <p>© 2026 Oleksandra Kovalenko 68984. Wszystkie prawa zastrzeżone.</p>
+          </footer>
+        </div> </div>
+    </section>
+    
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>
