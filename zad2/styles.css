@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: 0;
+    padding: 0;
+    background-color: #f5fff5;
+}
+
+:root {
+    --main-green: #2e8b57;
+}
+
+h1, h2, h3 {
+    color: var(--main-green);
+}
+
+.hero-section {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero-photo {
+    width: 220px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.hero-buttons {
+    margin-top: 20px;
+}
+
+.section {
+    padding: 40px;
+    margin: 20px;
+}
+
+.navbar {
+    background-color: var(--main-green);
+    padding: 15px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero-photo {
+    width: 220px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.hero-buttons {
+    margin-top: 20px;
+}
+
+.social-links{
+    margin-top:20px;
+    display:flex;
+    justify-content:center;
+    gap:15px;
+}
+
+.social-link{
+    text-decoration:none;
+    display:inline-block;
+}
+
+.btn-primary {
+    background-color: var(--main-green);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px 0;
+    background-color: white;
+}
+
+.tag {
+    background-color: #e0f2e9;
+    color: #2e8b57;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 3px;
+    display: inline-block;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #2e8b57;
+    color: white;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-desktop {
+    display: flex;
+    gap: 15px;
+}
+
+.contact-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.contact-card {
+    text-align: center;
+    width: 220px;
+}
+
+.btn-secondary {
+    border: 2px solid var(--main-green);
+    background-color: white;
+    color: var(--main-green);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
