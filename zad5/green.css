@@ -1,0 +1,114 @@
+:root {
+  --bg: #161a18;
+  --nav-bg: rgba(32, 37, 34, 0.95);
+  --card-bg: #202522;
+  --accent: #8eb69b; /* Sage Green */
+  --text: #f0f0f0;
+  --text-dim: #a0b0a5;
+  --input-bg: #272d29;
+}
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  padding-top: 70px;
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0; width: 100%;
+  background: var(--nav-bg);
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.nav-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo { font-weight: bold; font-size: 1.5rem; color: var(--accent); }
+.nav-link {
+  color: var(--text);
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 0.9rem;
+  transition: 0.3s;
+}
+.nav-link:hover { color: var(--accent); }
+
+.theme-btn {
+  background: none; border: 1px solid var(--accent);
+  color: var(--accent); padding: 5px 12px;
+  border-radius: 20px; cursor: pointer; margin-left: 15px;
+}
+
+.hero-section {
+  min-height: 60vh;
+  display: flex; align-items: center; justify-content: center;
+  text-align: center; /* Це центрує ім'я */
+}
+.hero-title { font-size: 3.5rem; color: var(--accent); margin: 0; }
+.hero-subtitle { font-size: 1.5rem; color: var(--text-dim); }
+
+.hero-buttons { margin-top: 30px; display: flex; gap: 15px; justify-content: center; }
+
+/* Секції */
+.container { max-width: 800px; margin: 0 auto; padding: 20px; }
+.section-header {
+  background: var(--card-bg); padding: 18px 25px;
+  border-radius: 12px; cursor: pointer;
+  display: flex; justify-content: space-between; align-items: center;
+  border-left: 5px solid var(--accent); margin-bottom: 10px;
+  transition: 0.3s;
+}
+.section-header:hover { background: #2d2727; }
+
+.section-content { display: none; padding: 10px 0 30px 0; }
+.section-content.active { display: block; animation: fadeIn 0.4s ease; }
+
+.card { background: var(--card-bg); padding: 25px; border-radius: 15px; margin-bottom: 15px; }
+.center-text { text-align: center; }
+
+/* Навички (Tags) */
+.skills-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.tags { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 15px; }
+.tag {
+  background: var(--input-bg); border: 1px solid var(--accent);
+  color: var(--accent); padding: 6px 12px; border-radius: 8px; font-size: 0.85rem;
+}
+
+/* Форма */
+.form-card { max-width: 600px; margin: 0 auto; }
+.form-group { margin-bottom: 20px; text-align: left; }
+input, textarea {
+  width: 100%; padding: 14px; background: var(--input-bg);
+  border: 1px solid #3d3535; border-radius: 10px; color: white; box-sizing: border-box;
+}
+
+/* Футер */
+.footer {
+  text-align: center; /* Центруємо футер */
+  padding: 40px 20px; color: var(--text-dim); font-size: 0.9rem;
+}
+
+.btn-primary {
+  background: var(--accent); color: var(--bg);
+  padding: 12px 25px; border: none; border-radius: 10px;
+  cursor: pointer; font-weight: bold; text-decoration: none;
+}
+
+.btn-secondary {
+  border: 1px solid var(--accent); color: var(--accent);
+  padding: 12px 25px; border-radius: 10px; text-decoration: none;
+}
+
+@keyframes fadeIn { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: translateY(0); } }
