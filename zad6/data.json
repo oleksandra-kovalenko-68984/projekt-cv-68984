@@ -1,0 +1,34 @@
+{
+  "skills": [
+    { "name": "HTML5", "type": "frontend" },
+    { "name": "CSS3", "type": "frontend" },
+    { "name": "JavaScript", "type": "frontend" },
+    { "name": "React", "type": "frontend" },
+    { "name": "PHP", "type": "other" },
+    { "name": "Git", "type": "other" },
+    { "name": "MySQL", "type": "other" },
+    { "name": "VS Code", "type": "other" }
+  ],
+  "projects": [
+    {
+      "title": "CRUD Web Application",
+      "desc": "Katalog filmów z systemem logowania i bazą MySQL.",
+      "tags": ["PHP", "MySQL", "JS"]
+    },
+    {
+      "title": "Portal Agencji Nieruchomości",
+      "desc": "Dynamiczne wyświetlanie ofert i responsywny interfejs.",
+      "tags": ["HTML", "CSS", "JS"]
+    }
+  ],
+  "education": [
+    {
+      "school": "Vistula University",
+      "degree": "Informatyka (10/2023 – obecnie)"
+    },
+    {
+      "school": "Liceum nr 1",
+      "degree": "Wykształcenie średnie z wyróżnieniem"
+    }
+  ]
+}
