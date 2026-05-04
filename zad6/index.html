@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oleksandra Kovalenko – Portfolio</title>
+  <link rel="stylesheet" href="red.css" id="theme-link" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-content">
+      <div class="nav-logo">OK</div>
+      <div class="nav-desktop">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">O mnie</a>
+        <a href="#education" class="nav-link">Nauka</a>
+        <a href="#skills" class="nav-link">Skille</a>
+        <a href="#contact" class="nav-link">Kontakt</a>
+        <button id="theme-toggle" class="theme-btn">🎨 Kolor</button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="portfolio-container">
+    <section id="home" class="hero-section">
+      <div class="hero-content">
+        <h1 class="hero-title">Oleksandra Kovalenko</h1>
+        <p class="hero-subtitle">Frontend Developer & IT Student</p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn-primary">Skontaktuj się</a>
+          <a href="https://github.com/oleksandra-kovalenko-68984" target="_blank" class="btn-secondary">GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-header"><span>👤 O mnie</span> <span class="chevron-icon">▼</span></h2>
+        <div class="section-content">
+          <div class="card center-text">
+            <p>Studentka informatyki nastawiona na rozwój w obszarze frontendu. Interesuję się tworzeniem przejrzystych interfejsów użytkownika.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- Sekcja Wykształcenie -->
+<section id="education" class="section">
+  <div class="container">
+    <h2 class="section-header"><span>🎓 Wykształcenie</span> <span class="chevron-icon">▼</span></h2>
+    <div class="section-content" id="education-list">
+      <!-- Dane wpadną tutaj z JS -->
+    </div>
+  </div>
+</section>
+
+    <section id="experience" class="section">
+      <div class="container">
+        <h2 class="section-header"><span>💼 Doświadczenie</span> <span class="chevron-icon">▼</span></h2>
+        <div class="section-content">
+          <div class="card">
+            <h3>Doradca Klienta – BERSHKA (Inditex)</h3>
+            <p><strong>05/2025 – obecnie</strong></p>
+            <ul class="experience-list">
+              <li>✓ Obsługa klienta i systemów sprzedażowych</li>
+              <li>✓ Współpraca zespołowa</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- Sekcja Umiejętności -->
+<section id="skills" class="section">
+  <div class="container">
+    <h2 class="section-header"><span>🛠️ Umiejętności</span> <span class="chevron-icon">▼</span></h2>
+    <div class="section-content">
+      <div id="skills-container" class="skills-grid">
+         <!-- Dane wpadną tutaj z JS -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sekcja Projekty -->
+<section id="projects" class="section">
+  <div class="container">
+    <h2 class="section-header"><span>💻 Projekty</span> <span class="chevron-icon">▼</span></h2>
+    <div class="section-content" id="projects-list">
+       <!-- Dane wpadną tutaj z JS -->
+    </div>
+  </div>
+</section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-header"><span>✉️ Kontakt</span> <span class="chevron-icon">▼</span></h2>
+        <div class="section-content">
+          <div class="card form-card">
+            <form id="contactForm" novalidate>
+              <div class="form-group">
+                <label>Imię i Nazwisko</label>
+                <input type="text" id="name" placeholder="np. Jan Kowalski">
+                <span class="error-msg" id="nameError"></span>
+              </div>
+              <div class="form-group">
+                <label>Email</label>
+                <input type="email" id="email" placeholder="np. jan@poczta.pl">
+                <span class="error-msg" id="emailError"></span>
+              </div>
+              <div class="form-group">
+                <label>Wiadomość</label>
+                <textarea id="message" rows="4"></textarea>
+                <span class="error-msg" id="messageError"></span>
+              </div>
+              <button type="submit" class="btn-primary">Wyślij wiadomość</button>
+              <div id="formSuccess" class="success-msg"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>© 2026 Oleksandra Kovalenko 68984. Wszystkie prawa zastrzeżone.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
